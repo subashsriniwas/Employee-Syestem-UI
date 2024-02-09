@@ -1,0 +1,52 @@
+/* Table */
+.table {
+    margin-top: 20px; /* Add margin to separate from heading */
+}
+
+/* Header */
+.table thead th {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Rows */
+.table tbody tr:hover {
+    background-color: #f8f9fa; /* Light background color on hover */
+}
+
+/* Buttons */
+.table tbody .btn {
+    padding: 6px 6px;
+    font-size: 1rem;
+}
+
+/* Small buttons for better alignment */
+.table tbody .btn-sm {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+/* Additional margin between buttons */
+.table tbody .btn:not(:last-child) {
+    margin-right: 6px;
+}
+
+/* Buttons */
+.table tbody .btn {
+    padding: 6px 12px;
+    font-size: 1rem;
+    background-color: #0b0c0b; /* New button background color */
+    border-color: #23b100; /* New button border color */
+    color: #fff; /* Text color */
+}
+
+/* Small buttons for better alignment */
+.table tbody .btn-sm {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+/* Additional margin between buttons */
+.table tbody .btn:not(:last-child) {
+    margin-right: 6px;
+}

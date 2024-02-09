@@ -1,13 +1,31 @@
-
-<h1 class="text-center"> Employee Management System</h1>
-
-<div class="container">
-    <app-employee-list class="text-center"> 
-    </app-employee-list>
-</div>
-    
-<footer class = "footer">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-        @ All Rights Reserved.
+        <a class="navbar-brand" href="#">Digisailor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1 class="text-center">{{ title }}</h1>
+    <br>
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="footer bg-dark text-white py-3">
+    <div class="container text-center">
+        <span>&copy; 2024 Digisailor. All Rights Reserved.</span>
     </div>
 </footer>
