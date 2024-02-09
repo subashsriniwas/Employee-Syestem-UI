@@ -18,7 +18,7 @@ export class EmployeeDetailsComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, private employeeService: EmployeeService) { }
 
   ngOnInit(): void {
-    this.id = +this.route.snapshot.params['id']; // Convert id to number
+    this.id = +this.route.snapshot.params['id']; 
 
     this.subscription = this.employeeService.getEmployeeById(this.id).subscribe(
       (data: Employee) => {
@@ -26,7 +26,6 @@ export class EmployeeDetailsComponent implements OnInit, OnDestroy {
       },
       (error) => {
         console.error('Error fetching employee data:', error);
-        // Handle error: Display a message to the user or redirect to an error page
       }
     );
   }

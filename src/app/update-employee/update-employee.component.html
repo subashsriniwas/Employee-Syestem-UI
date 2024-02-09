@@ -19,6 +19,12 @@
             <input type="text" class ="form-control" id = "emailId"
                 [(ngModel)] = "employee.email" name = "emailId">
         </div>
+
+        <div class="form-group">
+            <label> Present or Absent?</label>
+            <input type="text" class ="form-control" id = "attendance"
+                [(ngModel)] = "employee.attendance" name = "attendance">
+        </div>
     
         <button class = "btn btn-success" type ="submit">Submit</button>
     

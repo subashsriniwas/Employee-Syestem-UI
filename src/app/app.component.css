@@ -7,6 +7,7 @@
 }
 
 .navbar-brand {
+    margin-left: 30px;
     font-size: 1.6rem; /* Larger font size for brand */
     font-weight: bold; /* Bold font weight for brand */
 }
@@ -28,14 +29,13 @@
     color: #00050c; 
 }
 
-/* Main content */
 .container {
     padding: 20px; /* Add padding to the main container */
 }
 
 h1 {
     font-size: 2rem; /* Larger font size for heading */
-    margin-bottom: 30px; /* Add more spacing below heading */
+    margin-bottom: 10px; /* Add more spacing below heading */
     color: #000000; /* Blue color for heading */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow */
 }
@@ -49,11 +49,9 @@ h1 {
     color: #fff; /* White text color */
     padding: 10px; /* Padding for spacing */
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-    max-height: 80px;
+    max-height: 70px;
     z-index: 999; /* Ensure it's above other content */
 }
-
-
 
 .footer span {
     font-size: 1rem; /* Medium font size */
@@ -70,3 +68,17 @@ h1 {
 }
 
 
+.user-image {
+    width: 60px;
+    margin-left: 0%;
+    height: 60px;
+    border-radius: 40%;
+    border: 2px solid #fff;
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://img.icons8.com/nolan/64/1A6DFF/C822FF/critical-thinking.png");
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }

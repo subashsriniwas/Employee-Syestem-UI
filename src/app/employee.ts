@@ -3,5 +3,6 @@ export class Employee {
     firstName!: string;
     lastName!: string;
     email!: string;
-    attendance?: string; 
-}
+    attendance!: string; 
+  }
+  
